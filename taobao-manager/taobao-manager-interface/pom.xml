@@ -13,25 +13,18 @@
     <name>interface</name>
     <description>Demo project for Spring Boot</description>
 
+    <packaging>jar</packaging>
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.taobao</groupId>
-            <artifactId>manager</artifactId>
+            <groupId>com.taobao.manager</groupId>
+            <artifactId>pojo</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
